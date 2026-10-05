@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charrieau Espaces Verts — élagage et entretien de jardin, Arreux (08)</title>
+<meta name="description" content="Entreprise Charrieau, paysagiste élagueur à Arreux dans les Ardennes. Élagage, démontage, abattage, taille de haies, tonte et entretien de jardin. Crédit d'impôt 50 % avec avance immédiate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --vert:#0E4A26; --vert-2:#016531; --vert-3:#082E18; --vert-4:#135C31;
+  --jaune:#F2CE2B; --jaune-f:#8A6F00;
+  --creme:#FAF8F1; --creme-2:#F0EBDC; --blanc:#FFFFFF;
+  --encre:#16211A; --encre-2:#39473E; --gris:#79877E;
+  --trait:rgba(22,33,26,.14); --trait-2:rgba(22,33,26,.07);
+  --trait-clair:rgba(255,255,255,.17);
+  --max:1160px; --ease:cubic-bezier(.22,.61,.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--encre);background:var(--creme);font-size:16.5px;line-height:1.63;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Epilogue,system-ui,sans-serif;font-weight:800;letter-spacing:-.025em;line-height:1.05}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 28px}
+
+.bar{position:sticky;top:0;z-index:60;background:var(--vert-3);color:#fff}
+.bar .wrap{display:flex;align-items:center;gap:22px;min-height:76px}
+.marque{display:flex;align-items:center;gap:12px;text-decoration:none}
+.marque img{width:48px;height:48px}
+.marque span{display:flex;flex-direction:column;gap:3px;line-height:1}
+.marque b{font-family:Epilogue,sans-serif;font-weight:800;font-size:17px;letter-spacing:.02em}
+.marque em{font-style:normal;font-weight:600;font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--jaune)}
+.bar nav{margin-left:auto;display:flex;gap:24px;align-items:center}
+.bar nav a{color:rgba(255,255,255,.8);text-decoration:none;font-size:14.5px;font-weight:500;transition:color .2s}
+.bar nav a:hover{color:#fff}
+.tel{display:inline-flex;align-items:center;gap:8px;background:var(--jaune);color:var(--vert-3)!important;padding:11px 18px;border-radius:999px;font-weight:700;font-size:14.5px;text-decoration:none;transition:transform .2s}
+.tel:hover{transform:translateY(-1px)}
+
+.hero{background:var(--vert);color:#fff;padding:76px 0 84px;position:relative}
+.hero .wrap{display:grid;grid-template-columns:1.02fr .98fr;gap:52px;align-items:center}
+.kick{display:inline-flex;align-items:center;gap:11px;font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--jaune);margin-bottom:22px}
+.kick::before{content:"";width:28px;height:2px;background:var(--jaune)}
+.hero h1{font-size:clamp(34px,4.6vw,56px);color:#fff}
+.hero h1 em{font-style:normal;color:var(--jaune)}
+.hero p.chapo{margin-top:22px;font-size:17.5px;color:rgba(255,255,255,.86);max-width:31em}
+.actions{margin-top:30px;display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;transition:all .2s var(--ease)}
+.btn-p{background:var(--jaune);color:var(--vert-3)}
+.btn-p:hover{background:#fff}
+.btn-s{border:1.5px solid var(--trait-clair);color:#fff}
+.btn-s:hover{background:rgba(255,255,255,.09)}
+.hero figure{margin:0;position:relative}
+.hero figure img{border-radius:14px;width:100%}
+.hero figcaption{position:absolute;left:14px;bottom:14px;background:rgba(8,46,24,.86);backdrop-filter:blur(6px);color:#E6EDE6;font-size:12.5px;padding:7px 12px;border-radius:7px}
+
+.bandeau{background:var(--jaune);color:var(--vert-3)}
+.bandeau .wrap{display:flex;flex-wrap:wrap;gap:12px 40px;padding:18px 28px;font-size:14.5px;align-items:center;font-weight:500}
+.bandeau b{font-weight:800}
+
+section{padding:88px 0}
+.tete{max-width:44em;margin-bottom:46px}
+.tete .sur{font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--vert-2);margin-bottom:13px}
+.tete h2{font-size:clamp(27px,3.5vw,39px)}
+.tete p{margin-top:15px;color:var(--gris);font-size:17px}
+
+.cartes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(245px,100%),1fr));gap:18px}
+.carte{background:var(--blanc);border:1px solid var(--trait);border-radius:14px;padding:28px 26px}
+.carte .num{font-family:Epilogue,sans-serif;font-weight:800;font-size:12.5px;color:var(--vert-2)}
+.carte h3{font-size:20px;margin:12px 0 11px}
+.carte p{color:var(--gris);font-size:15.5px}
+.carte ul{list-style:none;margin-top:15px;display:flex;flex-direction:column;gap:7px}
+.carte li{font-size:14.5px;color:var(--encre-2);padding-left:16px;position:relative}
+.carte li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:2px;background:var(--vert-2)}
+
+.credit{background:var(--vert-3);color:#fff}
+.credit .tete h2{color:#fff}
+.credit .tete .sur{color:var(--jaune)}
+.credit .tete p{color:rgba(255,255,255,.76)}
+.etapes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr));gap:18px}
+.etape{background:rgba(255,255,255,.07);border:1px solid var(--trait-clair);border-radius:14px;padding:26px 24px}
+.etape b{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--jaune);color:var(--vert-3);font-family:Epilogue,sans-serif;font-weight:800;font-size:17px;margin-bottom:16px}
+.etape h3{font-size:17.5px;color:#fff;margin-bottom:9px}
+.etape p{color:rgba(255,255,255,.76);font-size:15px}
+.mention{margin-top:22px;font-size:13.5px;color:rgba(255,255,255,.55)}
+
+.galerie{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:18px;align-items:start}
+.galerie figure{margin:0}
+.galerie img{border-radius:12px;width:100%}
+.galerie figcaption{margin-top:10px;font-size:14px;color:var(--gris)}
+
+.avis{background:var(--creme-2)}
+.avis .liste{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:18px}
+.avis article{background:var(--blanc);border:1px solid var(--trait);border-radius:14px;padding:26px 24px}
+.etoiles{color:var(--jaune);letter-spacing:.1em;font-size:16px;margin-bottom:13px}
+.avis p.etoiles{color:var(--jaune);font-style:normal}
+.avis p{font-size:15.5px;color:var(--encre-2);font-style:italic}
+.avis cite{display:block;margin-top:14px;font-style:normal;font-weight:600;font-size:14.5px}
+.avis cite small{display:block;font-weight:400;color:var(--gris);font-size:13px;margin-top:2px}
+.note-globale{display:flex;align-items:center;gap:16px;margin-bottom:34px}
+.note-globale b{font-family:Epilogue,sans-serif;font-weight:800;font-size:44px;line-height:1}
+.note-globale span{color:var(--gris);font-size:15px}
+
+.entreprise .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}
+.entreprise img{border-radius:14px;width:100%}
+.faits{list-style:none;margin-top:28px;border-top:1px solid var(--trait)}
+.faits li{display:flex;gap:20px;padding:14px 0;border-bottom:1px solid var(--trait);font-size:15.5px}
+.faits li b{font-weight:700;min-width:150px}
+.faits li span{color:var(--gris)}
+
+.contact{background:var(--vert);color:#fff}
+.contact .tete h2{color:#fff}
+.contact .tete .sur{color:var(--jaune)}
+.contact .tete p{color:rgba(255,255,255,.8)}
+.contact .carte{background:var(--vert-4);border-color:var(--trait-clair)}
+.contact .carte .lab{font-size:11.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--jaune);margin-bottom:12px}
+.contact .carte a,.contact .carte p{font-size:16.5px;font-weight:600;color:#fff;text-decoration:none;word-break:break-word}
+.contact .carte small{display:block;margin-top:9px;color:rgba(255,255,255,.62);font-size:13.5px;font-weight:400}
+
+footer{background:var(--vert-3);color:rgba(255,255,255,.6);padding:32px 0;font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:13px 28px;align-items:center}
+footer a{color:rgba(255,255,255,.82);text-decoration:none}
+footer a:hover{color:#fff}
+footer .sep{margin-left:auto}
+
+.aconf{display:inline-block;vertical-align:middle;margin-left:7px;font-family:"Plus Jakarta Sans",sans-serif;font-size:10px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:#B4531A;border:1px dashed #B4531A;border-radius:4px;padding:2px 6px;line-height:1.5;white-space:nowrap}
+.credit .aconf,.contact .aconf{color:var(--jaune);border-color:var(--jaune)}
+
+.demo{position:fixed;right:16px;bottom:16px;z-index:90;background:var(--vert-3);color:#fff;border:1px solid var(--trait-clair);border-radius:10px;padding:11px 15px;font-size:12.5px;text-decoration:none;box-shadow:0 10px 28px rgba(0,0,0,.26);transition:transform .2s var(--ease)}
+.demo:hover{transform:translateY(-2px)}
+.demo b{display:block;font-weight:700;letter-spacing:.14em;font-size:10px;text-transform:uppercase;color:var(--jaune)}
+
+.rev{opacity:0;transform:translateY(16px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
+.rev.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rev{opacity:1;transform:none;transition:none}}
+
+@media(max-width:900px){
+  .hero .wrap,.entreprise .wrap{grid-template-columns:1fr;gap:36px}
+  .hero{padding:54px 0 60px}
+  section{padding:62px 0}
+  .bar nav a:not(.tel){display:none}
+  .faits li{flex-direction:column;gap:3px}
+  .faits li b{min-width:0}
+}
+@media(max-width:560px){
+  .wrap{padding:0 18px}
+  .demo{right:10px;bottom:10px;padding:9px 12px;font-size:11.5px}
+}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="marque" href="#">
+      <img src="logo-charrieau.png" alt="Logo Charrieau Espaces Verts" width="414" height="414">
+      <span><b>CHARRIEAU</b><em>Espaces verts</em></span>
+    </a>
+    <nav>
+      <a href="#prestations">Prestations</a>
+      <a href="#credit">Crédit d'impôt</a>
+      <a href="#chantiers">Chantiers</a>
+      <a class="tel" href="tel:+33624357708">06 24 35 77 08</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="kick">Arreux · Ardennes et Reims</p>
+      <h1>L'arbre, on le démonte <em>branche par branche.</em></h1>
+      <p class="chapo">Élagage, démontage, abattage et entretien de jardin. Sur corde ou à la nacelle, le bois est broyé et évacué, et le terrain rendu propre.</p>
+      <div class="actions">
+        <a class="btn btn-p" href="tel:+33624357708">Demander un devis</a>
+        <a class="btn btn-s" href="#chantiers">Voir les chantiers</a>
+      </div>
+    </div>
+    <figure>
+      <img src="equipe.jpg" alt="L'équipe Charrieau Espaces Verts devant un épicéa avant démontage" width="1400" height="860">
+      <figcaption>Avant d'attaquer les trois épicéas</figcaption>
+    </figure>
+  </div>
+</section>
+
+<div class="bandeau">
+  <div class="wrap">
+    <span><b>5 / 5</b> sur 4 avis clients<span class="aconf">à confirmer</span></span>
+    <span><b>Crédit d'impôt 50 %</b> avec avance immédiate</span>
+    <span><b>Ardennes et Reims</b> · particuliers et professionnels</span>
+  </div>
+</div>
+
+<section id="prestations">
+  <div class="wrap">
+    <div class="tete rev">
+      <p class="sur">Prestations</p>
+      <h2>Du grand arbre à la bordure de pelouse</h2>
+      <p>L'élagage et l'abattage d'un côté, l'entretien régulier du jardin de l'autre. Les deux chez le même interlocuteur.</p>
+    </div>
+    <div class="cartes rev">
+      <article class="carte">
+        <p class="num">01</p>
+        <h3>Élagage et démontage</h3>
+        <p>Les arbres trop hauts ou trop près des habitations se démontent par le haut, pièce par pièce.</p>
+        <ul>
+          <li>Démontage sur corde</li>
+          <li>Taille douce et taille sanitaire</li>
+          <li>Taille fruitière</li>
+          <li>Retrait du gui</li>
+        </ul>
+      </article>
+      <article class="carte">
+        <p class="num">02</p>
+        <h3>Abattage et évacuation</h3>
+        <p>Quand l'arbre est dangereux ou en fin de vie, il part en entier. Le chantier est laissé net.</p>
+        <ul>
+          <li>Abattage directionnel</li>
+          <li>Broyage des branches</li>
+          <li>Évacuation du bois</li>
+          <li>Dessouchage<span class="aconf">à confirmer</span></li>
+        </ul>
+      </article>
+      <article class="carte">
+        <p class="num">03</p>
+        <h3>Entretien de jardin</h3>
+        <p>Le passage régulier qui fait qu'un terrain ne part jamais à l'abandon.</p>
+        <ul>
+          <li>Tonte de pelouse</li>
+          <li>Taille de haies</li>
+          <li>Désherbage</li>
+          <li>Entretien des massifs</li>
+        </ul>
+      </article>
+      <article class="carte">
+        <p class="num">04</p>
+        <h3>Création paysagère</h3>
+        <p>La conception du jardin, puis la réalisation du chantier.</p>
+        <ul>
+          <li>Conception du projet</li>
+          <li>Plantation</li>
+          <li>Création de massifs</li>
+          <li>Aménagement extérieur</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="credit" class="credit">
+  <div class="wrap">
+    <div class="tete rev">
+      <p class="sur">Crédit d'impôt</p>
+      <h2>Vous ne payez que la moitié, tout de suite</h2>
+      <p>L'entretien de jardin ouvre droit à 50 % de crédit d'impôt. Avec l'avance immédiate, la réduction s'applique au moment de payer, pas un an plus tard.</p>
+    </div>
+    <div class="etapes rev">
+      <div class="etape">
+        <b>1</b>
+        <h3>On réalise la prestation</h3>
+        <p>Tonte, taille de haies, désherbage, entretien des massifs : les travaux d'entretien du jardin sont éligibles.</p>
+      </div>
+      <div class="etape">
+        <b>2</b>
+        <h3>On déclare l'intervention</h3>
+        <p>La déclaration pour le crédit d'impôt est faite par l'entreprise. Vous n'avez aucune démarche à mener.</p>
+      </div>
+      <div class="etape">
+        <b>3</b>
+        <h3>Vous payez le reste à charge</h3>
+        <p>Grâce à l'avance immédiate, vous ne réglez que la moitié de la facture. Aucune avance de frais à faire.</p>
+      </div>
+    </div>
+    <p class="mention">Sous réserve d'éligibilité au crédit d'impôt selon la législation en vigueur. Le plafond annuel et les prestations concernées sont à vérifier au moment du devis.<span class="aconf">à confirmer</span></p>
+  </div>
+</section>
+
+<section id="chantiers">
+  <div class="wrap">
+    <div class="tete rev">
+      <p class="sur">Chantiers</p>
+      <h2>Quelques arbres descendus cette année</h2>
+      <p>Photos prises sur les chantiers, publiées au fil des interventions.</p>
+    </div>
+    <div class="galerie rev">
+      <figure>
+        <img src="grimpeur-cime.jpg" alt="Grimpeur en haut d'un arbre en cours de démontage, avec cordes et tronçonneuse" width="1400" height="860" loading="lazy">
+        <figcaption>Démontage par le haut, charpentière par charpentière</figcaption>
+      </figure>
+      <figure>
+        <img src="grimpeur-epicea.jpg" alt="Grimpeur dans un grand épicéa en cours d'ébranchage" width="1400" height="860" loading="lazy">
+        <figcaption>Ébranchage d'un épicéa de grande hauteur</figcaption>
+      </figure>
+      <figure>
+        <img src="gui.jpg" alt="Arbre envahi de boules de gui avant intervention" width="1400" height="860" loading="lazy">
+        <figcaption>Retrait du gui avant qu'il n'épuise l'arbre</figcaption>
+      </figure>
+      <figure>
+        <img src="grimpeur-ciel.jpg" alt="Grimpeur au sommet d'un conifère par ciel dégagé" width="1400" height="860" loading="lazy">
+        <figcaption>En haut, par beau temps</figcaption>
+      </figure>
+      <figure>
+        <img src="chantier-epicea.jpg" alt="Préparation du chantier au pied des épicéas, bâches au sol" width="720" height="960" loading="lazy">
+        <figcaption>Bâches au sol, broyage et évacuation du bois</figcaption>
+      </figure>
+      <figure>
+        <img src="epicea-soleil.jpg" alt="Épicéa éclairé par le soleil avant intervention" width="1400" height="860" loading="lazy">
+        <figcaption>L'arbre avant intervention</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="avis">
+  <div class="wrap">
+    <div class="tete rev">
+      <p class="sur">Avis clients</p>
+      <h2>Ce que disent les clients</h2>
+    </div>
+    <div class="note-globale rev">
+      <b>5 / 5</b>
+      <span><span class="etoiles" style="margin:0">★★★★★</span><br>4 avis clients<span class="aconf">à confirmer</span></span>
+    </div>
+    <div class="liste rev">
+      <article>
+        <p class="etoiles">★★★★★</p>
+        <p>Excellent travail, bon rapport qualité prix et professionnalisme sont au rendez-vous avec Monsieur Charrieau. J'ai bénéficié de ses services pour une taille d'arbre et j'ai été très satisfait ! Encore merci !</p>
+        <cite>Nathan B.<small>il y a 10 mois</small></cite>
+      </article>
+      <article>
+        <p class="etoiles">★★★★★</p>
+        <p>Sympathique et très professionnel, nous sommes satisfaits du travail effectué et nous le recommandons.</p>
+        <cite>Edith S.<small>il y a un an</small></cite>
+      </article>
+      <article>
+        <p class="etoiles">★★★★★</p>
+        <p>Excellent rapport qualité prix. Ce monsieur est intervenu chez moi pour mon arbre. Il a réalisé du très bon travail dans les délais pour lesquels nous nous étions entendus. Je recommande vivement ce professionnel.</p>
+        <cite>Aubin T.<small>il y a 2 ans</small></cite>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="entreprise">
+  <div class="wrap">
+    <div class="rev">
+      <p class="sur" style="font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--vert-2);margin-bottom:13px">L'entreprise</p>
+      <h2 style="font-size:clamp(27px,3.5vw,39px)">Guillaume Charrieau, paysagiste élagueur</h2>
+      <p style="margin-top:15px;color:var(--gris);font-size:17px">L'entreprise est installée rue des Jardins à Arreux, au nord de Charleville-Mézières, et intervient dans les Ardennes et jusqu'à Reims, chez les particuliers comme chez les professionnels.</p>
+      <ul class="faits">
+        <li><b>Métier</b><span>Services d'aménagement paysager (81.30Z)</span></li>
+        <li><b>Créée le</b><span>20 juin 2024</span></li>
+        <li><b>Forme</b><span>SAS, entreprise artisanale</span></li>
+        <li><b>Siège</b><span>17 rue des Jardins, 08090 Arreux</span></li>
+        <li><b>Zone d'intervention</b><span>Ardennes et Reims</span></li>
+        <li><b>Clients</b><span>Particuliers et professionnels</span></li>
+      </ul>
+    </div>
+    <img class="rev" src="grimpeur-epicea.jpg" alt="Grimpeur de l'entreprise Charrieau dans un épicéa" width="1400" height="860" loading="lazy">
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="tete rev">
+      <p class="sur">Contact</p>
+      <h2>Un arbre à descendre, un jardin à reprendre</h2>
+      <p>Le devis est gratuit. Une photo de l'arbre et son emplacement suffisent souvent pour donner une première idée.</p>
+    </div>
+    <div class="cartes rev">
+      <div class="carte">
+        <p class="lab">Téléphone</p>
+        <a href="tel:+33624357708">06 24 35 77 08</a>
+        <small>Du lundi au samedi<span class="aconf">à confirmer</span></small>
+      </div>
+      <div class="carte">
+        <p class="lab">E-mail</p>
+        <a href="mailto:entreprise.charrieau@gmail.com">entreprise.charrieau@gmail.com</a>
+        <small>Joignez une photo de l'arbre ou du terrain</small>
+      </div>
+      <div class="carte">
+        <p class="lab">Adresse</p>
+        <p>17 rue des Jardins<br>08090 Arreux</p>
+        <small>Déplacement dans les Ardennes et jusqu'à Reims</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Charrieau Espaces Verts · paysagiste élagueur, Arreux (08)</span>
+    <a class="sep" href="mentions-legales.html">Mentions légales</a>
+  </div>
+</footer>
+
+<a class="demo" href="https://kraon.netlify.app/offre" target="_blank" rel="noopener">
+  <b>Démo KRAON</b>
+  Maquette de démonstration
+</a>
+
+<script>
+(function(){
+  var els=document.querySelectorAll('.rev');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('on')});return}
+  var io=new IntersectionObserver(function(en){
+    en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})
+  },{rootMargin:'0px 0px -8% 0px',threshold:.06});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
